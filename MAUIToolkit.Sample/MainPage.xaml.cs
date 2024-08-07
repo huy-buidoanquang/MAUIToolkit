@@ -29,11 +29,6 @@
         {
             Image.Source = SignaturePad.ToImageSource();
         }
-
-        //private void Button_Clicked(object sender, EventArgs e)
-        //{
-        //    alert.Show();
-        //}
     }
 
 }

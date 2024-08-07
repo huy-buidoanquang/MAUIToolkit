@@ -1,4 +1,3 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
@@ -13,9 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		NuGet.config = NuGet.config
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIToolkit.Graphics.Core", "MAUIToolkit.Graphics.Core\MAUIToolkit.Graphics.Core.csproj", "{62465CE6-DB56-4E2B-90E6-B93131F0F179}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAUIToolkit.PdfViewer", "MAUIToolkit.PdfViewer\MAUIToolkit.PdfViewer.csproj", "{0075302B-187C-43F5-90D7-22320445DDE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MAUIToolkit.PdfViewer", "MAUIToolkit.PdfViewer\MAUIToolkit.PdfViewer.csproj", "{0075302B-187C-43F5-90D7-22320445DDE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,11 +30,19 @@ Global
 		{7EE4D411-EBB0-40F5-B404-51563F049205}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EE4D411-EBB0-40F5-B404-51563F049205}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7EE4D411-EBB0-40F5-B404-51563F049205}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{62465CE6-DB56-4E2B-90E6-B93131F0F179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62465CE6-DB56-4E2B-90E6-B93131F0F179}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62465CE6-DB56-4E2B-90E6-B93131F0F179}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62465CE6-DB56-4E2B-90E6-B93131F0F179}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0075302B-187C-43F5-90D7-22320445DDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0075302B-187C-43F5-90D7-22320445DDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0075302B-187C-43F5-90D7-22320445DDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0075302B-187C-43F5-90D7-22320445DDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A78921A-1D2E-4673-80CC-217929D5DEA1}
+	EndGlobalSection
+EndGlobal
+.ActiveCfg = Debug|Any CPU
 		{0075302B-187C-43F5-90D7-22320445DDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0075302B-187C-43F5-90D7-22320445DDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0075302B-187C-43F5-90D7-22320445DDE1}.Release|Any CPU.Build.0 = Release|Any CPU
