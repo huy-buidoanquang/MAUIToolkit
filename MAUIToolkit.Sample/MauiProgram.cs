@@ -7,6 +7,7 @@ namespace MAUIToolkit.Sample
     {
         public static MauiApp CreateMauiApp()
         {
+            //mock comment
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
