@@ -10,6 +10,9 @@ namespace MAUIToolkit.Sample
             //mock comment
             //mock comment 1
             //mock comment 2
+            //mock comment 20
+            //mock comment 21
+            //mock comment 22
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
