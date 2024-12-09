@@ -1,6 +1,4 @@
 ﻿using MAUIToolkit.Core.Hosting;
-using MAUIToolkit.Graphics.Core;
-using MAUIToolkit.Graphics.Core.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace MAUIToolkit.Sample
@@ -9,10 +7,14 @@ namespace MAUIToolkit.Sample
     {
         public static MauiApp CreateMauiApp()
         {
+            //mock comment
+            //mock comment 1
+            //mock comment 2
+            //mock comment 3
+            //mock comment 4
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .ConfigureGraphicsControls(DrawableType.Material)
                 .ConfigureMAUIToolkitCore()
                 .ConfigureFonts(fonts =>
                 {
